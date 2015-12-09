@@ -1,0 +1,22 @@
+{
+  "name": "angular-input-usd",
+  "version": "0.0.1",
+  "homepage": "http://deltreey.github.io/angular-input-usd/",
+  "authors": [
+    "deltreey <suicidolt@gmail.com>"
+  ],
+  "description": "Add this attribute to your input element to make it display as US Dollars.",
+  "main": "input-usd.js",
+  "keywords": [
+    "angular-input-usd",
+    "usd",
+    "input-usd",
+  ],
+  "license": "MIT",
+  "ignore": [
+    "bower_components"
+  ],
+  "dependencies": {
+    "angular": "~1.3.10"
+  }
+}
