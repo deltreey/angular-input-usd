@@ -1,6 +1,6 @@
 'use strict';
-var app = angular.module('app', [ 'multistagebox' ]);
+var app = angular.module('app', [ 'input-usd' ]);
 
 app.controller('MainCtrl', function ($scope) {
-	$scope.state = 2;
+	$scope.money = 86753.09;
 });
