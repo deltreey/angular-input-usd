@@ -1,6 +1,6 @@
 {
   "name": "angular-input-usd",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "homepage": "http://deltreey.github.io/angular-input-usd/",
   "authors": [
     "deltreey <suicidolt@gmail.com>"
@@ -17,6 +17,6 @@
     "bower_components"
   ],
   "dependencies": {
-    "angular": "~1.3.10"
+    "angular": "1.x"
   }
 }
