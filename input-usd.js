@@ -27,11 +27,11 @@ angular.module('input-usd', [])
   				return rawData;
   			},
   			pretty: function () {
-  				var prettyData = '$';
-
+  				var prettyData = '';
   				if (result.negative) {
   					prettyData += '-';
   				}
+  				prettyData += '$';
 
   				var dollarString = result.dollars.toString();
   				var prettyDollars = '';
