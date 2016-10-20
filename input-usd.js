@@ -60,7 +60,7 @@ angular.module('input-usd', [])
 	      var rawText = value.replace(nonDigits, '');
 
         // deal with negative values
-        if (value.indexOf('-') === 0) {
+        if (value.indexOf('-') === 0 || (value.indexOf('$') === 0 && value.indexOf('-') === 1)) {
           result.negative = true;
         }
         // now we calculate the numbers
